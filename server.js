@@ -2,6 +2,14 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
+var articleOne = {
+    title:"Article Third|Pawan kumar",
+    Heading:"Article Third",
+    date:'5 sep 2016',
+    content:'',
+  
+};
+
 var app = express();
 app.use(morgan('combined'));
 
