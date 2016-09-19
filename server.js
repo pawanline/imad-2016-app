@@ -3,12 +3,71 @@ var morgan = require('morgan');
 var path = require('path');
 
 var articleOne = {
-    title:"Article Third|Pawan kumar",
-    Heading:"Article Third",
+    title:"Article One|Pawan kumar",
+    heading:"Article One",
     date:'5 sep 2016',
-    content:'',
+    content:`
+    <P>
+            This is the content for my first article.i am writing it @3am on 19-9-16-
+        </P>
+        
+        <P>
+            This is the content for my first article.i am writing it @3am on 19-9-16-
+        </P>
+        
+         <P>
+            This is the content for my first article.i am writing it @3am on 19-9-16-
+        </P>`
   
 };
+
+function createTemplate(data){
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
+    
+
+var htmlTemplate = `<html>
+<head>
+    <title> ${title}</title>
+    <meta name = "viewport" content="width-device-width,initial-scale-1"/>
+    <style>
+        .container{
+     max-width: 800px;
+    margin: 0 auto;
+    font-size: 32px;
+    color: #5f565f;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div>
+        <a href="/">Home</a>
+    </div>
+    <hr/>
+    <h3>
+        ${heading}
+    </h3>
+    <div>
+      ${date};
+    </div>
+    <div>
+       
+        ${content}
+        
+    </div>
+    </div>
+</body>
+</html>
+`;
+return htmlTemplate;
+}
 
 var app = express();
 app.use(morgan('combined'));
@@ -18,7 +77,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one',function(req,res){
-     res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+     res.send(createTemplate(articleOne));
 });
 
 app.get('/aricle-two',function(req,res){
