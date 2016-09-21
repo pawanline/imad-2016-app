@@ -38,25 +38,25 @@ var articles = {
         </P>`
     
 },
-'article-three ': {
+'article-three' : {
     title:"Article Three|Pawan kumar",
-    heading:"Article Three",
+    heading:"Article Two",
     date:'5 sep 2016',
     content:`
     <P>
-            This is the content for my Third article.i am writing it @3am on 19-9-16-
+            This is the content for my second article.i am writing it @3am on 19-9-16-
         </P>
         
         <P>
-            This is the content for my Third article.i am writing it @3am on 19-9-16-
+            This is the content for my second article.i am writing it @3am on 19-9-16-
         </P>
         
          <P>
-            This is the content for my Third article.i am writing it @3am on 19-9-16-
+            This is the content for my second article.i am writing it @3am on 19-9-16-
         </P>`
+    
 },
 };
-
 function createTemplate(data){
     var title = data.title;
     var date = data.date;
