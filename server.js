@@ -44,15 +44,15 @@ var articles = {
     date:'5 sep 2016',
     content:`
     <P>
-            This is the content for my second article.i am writing it @3am on 19-9-16-
+            This is the content for my third article.i am writing it @3am on 19-9-16-
         </P>
         
         <P>
-            This is the content for my second article.i am writing it @3am on 19-9-16-
+            This is the content for my third article.i am writing it @3am on 19-9-16-
         </P>
         
          <P>
-            This is the content for my second article.i am writing it @3am on 19-9-16-
+            This is the content for my third article.i am writing it @3am on 19-9-16-
         </P>`
     
 },
