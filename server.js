@@ -38,7 +38,7 @@ var articles = {
         </P>`
     
 },
-'article-three': {
+'article-three ': {
     title:"Article Three|Pawan kumar",
     heading:"Article Three",
     date:'5 sep 2016',
