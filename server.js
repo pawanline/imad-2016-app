@@ -54,7 +54,7 @@ var articles = {
          <P>
             This is the content for my Third article.i am writing it @3am on 19-9-16-
         </P>`
-}
+},
 };
 
 function createTemplate(data){
