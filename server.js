@@ -117,10 +117,10 @@ app.get('/counter',function(req,res){
     res.send(counter.toString());
 });
 var names=[];
-app.get('/submit-name/:name',function(req,res){
+app.get('/submit-name',function(req,res){
                                                     //URL:/submit-name?name=xxxx
     //get the name from the request
-    var name =req.params.name;//todo
+    var name =req.query.name;//todo
     names.push(name);
     //JSON 
     res.send(JSON.stringify(names)); //todo
