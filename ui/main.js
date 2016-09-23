@@ -38,9 +38,9 @@ submit.onclick = function (){
   //capture a list of name and render it as a list
   
   var names = ['name1','name2','name3','name4'];
-  var list ='';
+  var list ="";
   for (var i=0; i<names.length;i++){
-      list += '<li'+'hello'+'</li>';
+      list += "<li>"+'hello'+"</li>";
   }
   var ul = document.getElementById('namelist');
   ul.innerHTML = list;
