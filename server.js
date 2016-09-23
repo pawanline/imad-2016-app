@@ -116,6 +116,7 @@ app.get('/counter',function(req,res){
     counter = counter + 1;
     res.send(counter.toString());
 });
+var names=[];
 app.get('/submit-name',function(req,res){
                                                     //URL:/submit-name?name=xxxx
     //get the name from the request
@@ -146,7 +147,7 @@ app.get('/ui/main.js',function(req,res){
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-var names=[];
+
 
 
 
