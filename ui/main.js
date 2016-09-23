@@ -47,7 +47,7 @@ var request = new XMLHttpRequest();
         list += "<li"+"hello"+"</li>";
     }
     
-    var ul = document.getElementById('nameslist');
+    var ul = document.getElementById('namelist');
     ul.innerHTML = list;
         }
     
