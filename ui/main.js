@@ -1,5 +1,5 @@
 //counter code
-var button = document.getElementById('counter');
+var button = document.getElementById("counter");
 button.onclick = function(){
     
 
@@ -26,7 +26,7 @@ request.send(null);
 
 //submit name
 
-var nameInput = document.getElementById('name');
+var nameInput = document.getElementById("name");
 var name = nameInput.value;
 var submit = document.getElementById('submit_btn');
 
@@ -47,7 +47,7 @@ var request = new XMLHttpRequest();
         list += "<li"+names[i]+"</li>";
     }
     
-    var ul = document.getElementById('namelist');
+    var ul = document.getElementById("namelist");
     ul.innerHTML = list;
         }
     
