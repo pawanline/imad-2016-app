@@ -41,6 +41,7 @@ body {
 
 li {
     float: left;
+      border-right: 1px solid #bbb;
 }
 
 li a {
@@ -60,4 +61,9 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
+}
+
+
+li:last-child {
+    border-right: none;
 }
