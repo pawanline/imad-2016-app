@@ -40,7 +40,10 @@ body {
             border: 1px solid #555;
         }
         
-li a {
+li {
+    float : left;
+}
+a {
     display:block;
     color: #000;
     padding: 8px 16px;
