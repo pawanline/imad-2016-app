@@ -43,7 +43,7 @@ body {
 li {
     float : left;
 }
-a {
+li a {
     display:block;
     color: #000;
     padding: 8px 16px;
