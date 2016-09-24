@@ -47,7 +47,7 @@ body {
             border: 1px solid #555;
         }
 /* Change the link color on hover */
-li .active {
+li a.active {
     background-color: #4CAF50;
     color: white;
 }
