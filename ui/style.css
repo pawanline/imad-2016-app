@@ -29,7 +29,7 @@ body {
     padding-right: 20px;
         }
         li  {
-            display:inline;
+            display:block;
             width:60px;
         }
         ul{
