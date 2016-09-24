@@ -52,7 +52,7 @@ li{
     border-bottom: 1px solid #555;
 }
 /* Change the link color on hover */
-li a.active {
+li .active {
     background-color: #4CAF50;
     color: white;
 }
