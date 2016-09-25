@@ -20,6 +20,10 @@ body {
     height: 500px;
     width :400px;
 }
+.linkedin-log{
+    height:50px;
+    width:50px;
+}
 
     .container {
      max-width: 800px;
