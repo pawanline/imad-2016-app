@@ -8,7 +8,7 @@ var articles = {
     date:'5 sep 2016',
     content:`
     <P>
-           <a href="http://https://www.linkedin.com/in/pawan-kumar-430951111?trk=nav_responsive_tab_profile_pic"><img class = "linkedin-log" src ="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" border = '0'/>
+           <a href="http://https://www.linkedin.com/in/pawan-kumar-430951111?trk=nav_responsive_tab_profile_pic"><img id ="linkedin-logo" src ="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" border = '0'/>
         </P>
         
         <P>
