@@ -25,6 +25,9 @@ body {
     width:50px;
 }
 
+.about-me{
+   text-size:15px;
+}
     .container {
      max-width: 800px;
     margin: 0 auto;
