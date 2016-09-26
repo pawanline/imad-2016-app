@@ -109,4 +109,10 @@ li:last-child {
    font-weight:bold;
    color:purple;
 }
+
+.footer{
+    background-color:black;
+    color:purple;
+    margin:0px 20px 0px 20px;
+}
   
