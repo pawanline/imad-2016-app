@@ -39,8 +39,7 @@ body {
     overflow: hidden;
     background-color:black;
     position: fixed;
-      padding-left: 40px;
-    padding-right: 40px;
+     width:100%;
     top: 0;
    
 }
