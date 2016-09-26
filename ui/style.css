@@ -50,16 +50,11 @@ body {
     top: 0;
     width: 100%;
 }
-.technicalSection{
-    float: right;
-    max-width: 300px;
+nav {
+    float: left;
+    max-width: 160px;
     margin: 0;
     padding: 1em;
-}
-
-.technicalSection ul li{
-    font-family:cursive;
-    color:red;
 }
 
 li {
