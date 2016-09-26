@@ -87,7 +87,7 @@ li:last-child {
 }
 
 
-.softSkills{
+.events{
     float:left;
     background-color:white;
     width:300px;
@@ -95,7 +95,7 @@ li:last-child {
 }
 
 
-.technicalSection {
+.latestNews {
     float:right;
     width:300px;
     height:400px;
