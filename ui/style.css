@@ -27,8 +27,14 @@ body {
 .softSkills{
     float:left;
     background-color:white;
-    width:350px;
+    width:300px;
     height:400px;
+}
+.technicalSection {
+    float:right;
+    width:300px;
+    height:400px;
+  background-color:pink;
 }
 .about-me{
    
@@ -59,12 +65,7 @@ body {
     top: 0;
     width: 100%;
 }
-.technicalSection {
-    float:right;
-    width:300px;
-    height:400px;
-  background-color:pink;
-}
+
 
 
 li {
