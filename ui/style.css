@@ -50,6 +50,15 @@ body {
     top: 0;
     width: 100%;
 }
+ #technicalSkills {
+     max-width: 800px;
+    margin: 0 auto;
+    font-size: 32px;
+    color: #5f565f;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+        }
 
 #technicalSkills li {
     color:red;
