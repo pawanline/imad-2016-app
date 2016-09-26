@@ -50,9 +50,12 @@ body {
     top: 0;
     width: 100%;
 }
-#technicalSkillsk{
+#technicalSkills{
     color:red;
     
+}
+#technicalSkills li {
+    color:red;
 }
 
 li {
