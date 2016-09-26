@@ -50,13 +50,12 @@ body {
     top: 0;
     width: 100%;
 }
- .technicalSection{
+echnicalSection{
     float: left;
-    margin: 5px;
-    max-width: 300px;
-    max-height: 300px;
-    border: 1px solid black;
-} 
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
 
 #technicalSkills li {
     color:red;
