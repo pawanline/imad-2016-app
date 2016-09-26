@@ -50,17 +50,17 @@ body {
     top: 0;
     width: 100%;
 }
-nav {
+.technicalSkills {
     float: left;
     max-width: 655px;
     margin: 0;
     padding: 1em;
 }
-nav ul {
+.technicalSkills ul {
     list-style-type: none;
     padding: 0;
 }
-nav ul li{
+.technicalSkills ul li{
     color:red;
 }
    
