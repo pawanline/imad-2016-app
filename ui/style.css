@@ -28,7 +28,8 @@ body {
      max-width: 1200px;
      height:1260px;
     font-size: 32px;
-   
+     padding-left: 40px;
+    padding-right: 40px;
     font-family: sans-serif;
   
         }
