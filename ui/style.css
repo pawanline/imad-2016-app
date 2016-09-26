@@ -35,9 +35,6 @@ body {
 
       ul {
     list-style-type: none;
-    margin: 0;
-  padding-left: 40px;
-    padding-right: 40px;
     overflow: hidden;
     background-color:black;
     position: fixed;
