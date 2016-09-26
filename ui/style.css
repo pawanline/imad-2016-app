@@ -22,6 +22,9 @@ body {
     height:50px;
     width:50px;
 }
+.navigationBar{
+    background-color:aqua;
+}
   .container {
         background-color:yellow;
      max-width: 1200px;
