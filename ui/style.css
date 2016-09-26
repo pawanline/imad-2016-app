@@ -24,10 +24,9 @@ body {
 }
 
   .container {
-        background-color:yellow;
+     background-color:yellow;
      max-width: 1200px;
      height:1260px;
-    margin: 0 auto;
     font-size: 32px;
    
     font-family: sans-serif;
