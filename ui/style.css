@@ -25,7 +25,7 @@ body {
 
   .container {
       margin:0px 20px 0px 20px;
-     background-color:yellow;
+    
      max-width: 1200px;
      height:1260px;
     font-size: 32px;
@@ -87,7 +87,7 @@ li:last-child {
 .events{
      border: 1px solid black;
     float:left;
-    background-color:white;
+    
     width:300px;
     height:400px;
 }
@@ -98,7 +98,7 @@ li:last-child {
     float:right;
     width:300px;
     height:400px;
-  background-color:pink;
+ 
 }
 
 
@@ -111,7 +111,7 @@ li:last-child {
 }
 
 .footer{
-    background-color:black;
+   
     color:purple;
     margin:270px 20px 0px 20px;
     
