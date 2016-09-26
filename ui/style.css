@@ -52,21 +52,9 @@ body {
     width: 100%;
 }
 .technicalSkills {
-    display:block;
-    margin-left: 170px;
-    margin-top:200px;
-    margin-right:20px;
-    padding: 1em;
-    overflow: hidden;
+  
 }
-.technicalSkills ul {
-    list-style-type: none;
-    padding: 0;
-}
-.technicalSkills ul li{
-    color:red;
-}
-   
+
 
 li {
     float: left;
