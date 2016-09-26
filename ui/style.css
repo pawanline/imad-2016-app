@@ -94,6 +94,7 @@ li:last-child {
 
 
 .latestNews {
+     border: 1px solid black;
     float:right;
     width:300px;
     height:400px;
