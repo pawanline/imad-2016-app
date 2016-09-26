@@ -51,7 +51,7 @@ body {
     width: 100%;
 }
 .technicalSection{
-    float: left;
+    float: right;
     max-width: 160px;
     margin: 0;
     padding: 1em;
