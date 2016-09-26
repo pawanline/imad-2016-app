@@ -51,10 +51,10 @@ body {
     width: 100%;
 }
 .technicalSkills {
-    float: left;
-    max-width: 655px;
-    margin: 0;
+    margin-left: 170px;
+    border-left: 1px solid gray;
     padding: 1em;
+    overflow: hidden;
 }
 .technicalSkills ul {
     list-style-type: none;
