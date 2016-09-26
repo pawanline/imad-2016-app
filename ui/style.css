@@ -27,6 +27,7 @@ body {
 
 .about-me{
     float:left;
+    background-color:red;
    font-size:40px;
    font-weight:bold;
    color:purple;
