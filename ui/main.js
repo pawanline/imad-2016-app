@@ -23,6 +23,8 @@ button.onclick = function(){
     request.open('GET','http://pawanline.imad.hasura-app.io/counter',true);
     request.send(null);
     };
+    
+    
 
 //Submit name
 
