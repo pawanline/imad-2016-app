@@ -57,9 +57,9 @@ body {
     padding: 1em;
 }
 
-#technicalSkills li {
+.technicalSection ul li{
+    font-family:cursive;
     color:red;
-    font-family:"cursive";
 }
 
 li {
