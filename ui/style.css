@@ -4,9 +4,7 @@ body {
     margin-top: 60px;
 }
 
-.center {
-    text-align: center;
-}
+
 
 .text-big {
     font-size: 300%;
@@ -24,26 +22,7 @@ body {
     height:50px;
     width:50px;
 }
-.softSkills{
-    float:left;
-    background-color:white;
-    width:300px;
-    height:400px;
-}
-.technicalSection {
-    float:right;
-    width:300px;
-    height:400px;
-  background-color:pink;
-}
-.about-me{
-   
-    background-color:red;
-   font-size:40px;
-   font-weight:bold;
-   color:purple;
-}
-    .container {
+  .container {
         background-color:yellow;
      max-width: 1200px;
      height:1260px;
@@ -96,3 +75,36 @@ li a:hover:not(.active) {
 li:last-child {
     border-right: none;
 }
+
+
+.center {
+    text-align: center;
+}
+
+
+.softSkills{
+    float:left;
+    background-color:white;
+    width:300px;
+    height:400px;
+}
+
+
+.technicalSection {
+    float:right;
+    width:300px;
+    height:400px;
+  background-color:pink;
+}
+
+
+
+
+.about-me{
+   
+    background-color:red;
+   font-size:40px;
+   font-weight:bold;
+   color:purple;
+}
+  
