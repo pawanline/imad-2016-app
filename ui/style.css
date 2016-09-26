@@ -25,6 +25,7 @@ body {
     width:50px;
 }
 .softSkills{
+    float:left;
     background-color:white;
     width:30px;
 }
