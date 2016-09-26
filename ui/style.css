@@ -30,12 +30,14 @@ body {
     font-size: 32px;
    
     font-family: sans-serif;
-    
+    padding-left: 20px;
+    padding-right: 20px;
         }
 
       ul {
     list-style-type: none;
     margin: 0;
+
     overflow: hidden;
     background-color:black;
     position: fixed;
