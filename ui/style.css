@@ -56,6 +56,11 @@ nav {
     margin: 0;
     padding: 1em;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
 
 li {
     float: left;
