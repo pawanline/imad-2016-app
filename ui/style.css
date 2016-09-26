@@ -24,7 +24,10 @@ body {
     height:50px;
     width:50px;
 }
-
+.softSkills{
+    background-color:white;
+    width:30px;
+}
 .about-me{
    
     background-color:red;
