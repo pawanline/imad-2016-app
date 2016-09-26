@@ -55,7 +55,8 @@ li {
 
 li a {
     display: block;
-    color: black;
+    font-family:cursive;
+    color: White;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
