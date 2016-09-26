@@ -85,6 +85,7 @@ li:last-child {
 
 
 .events{
+     border: 1px solid black;
     float:left;
     background-color:white;
     width:300px;
