@@ -52,7 +52,8 @@ body {
 }
 .technicalSkills {
     margin-left: 170px;
-    border-left: 1px solid gray;
+    margin-top:200px;
+
     padding: 1em;
     overflow: hidden;
 }
