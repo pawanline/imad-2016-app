@@ -16,7 +16,7 @@ var articles = {
         </span>
         
          <P>
-            <a href="<a href="https://www.facebook.com/profile.php?id=100004177570711"/><img src ="https://en.wikipedia.org/wiki/File:Facebook_New_Logo_(2015).svg" width="42" height="42"/>
+            <a href="<a href="https://www.facebook.com/profile.php?id=100004177570711"/><img src ="http://www.underconsideration.com/brandnew/archives/facebook_2015_logo_detail.png" width="42" height="42"/>
         </P>`
   
 },
