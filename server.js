@@ -3,8 +3,8 @@ var morgan = require('morgan');
 var path = require('path');
 var articles = {
 'article-one' : {
-    title:"Article One|Pawan kumar",
-    heading:"Article One",
+    title:"Contact me",
+    heading:"click here",
     date:'5 sep 2016',
     content:`
     <span>
