@@ -116,4 +116,14 @@ li:last-child {
     margin:270px 20px 0px 20px;
     
 }
+
+
   
+
+@media only screen and (max-width: 768px) {
+    .img-medium {
+    height: 10%;
+    width :10%;
+}
+
+}
