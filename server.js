@@ -4,7 +4,7 @@ var path = require('path');
 var articles = {
 'article-one' : {
     title:"Contact me",
-    heading:"click here",
+    heading:"click on below links to reach me",
     date:'5 sep 2016',
     content:`
     <span>
