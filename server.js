@@ -7,13 +7,13 @@ var articles = {
     heading:"Article One",
     date:'5 sep 2016',
     content:`
-    <P>
+    <span>
            <a href="https://www.linkedin.com/in/pawan-kumar-430951111?trk=nav_responsive_tab_profile_pic"/> <img  src ="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="42" height="42" border = '0'/>
-        </P>
+        </span>
         
-        <P>
+        <span>
     <a href="https://twitter.com/pawanku18045433"/><img src ="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width="42" height="42"/>
-        </P>
+        </span>
         
          <P>
             This is the content for my first article.i am writing it @3am on 19-9-16-
