@@ -5,7 +5,6 @@ var articles = {
 'article-one' : {
     title:"Contact me",
     heading:"click here",
-    date:'5 sep 2016',
     content:`
     <span>
            <a href="https://www.linkedin.com/in/pawan-kumar-430951111?trk=nav_responsive_tab_profile_pic"/> <img  src ="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="42" height="42" border = '0'/>
