@@ -8,15 +8,15 @@ var articles = {
     date:'5 sep 2016',
     content:`
     <span>
-           <a href="https://www.linkedin.com/in/pawan-kumar-430951111?trk=nav_responsive_tab_profile_pic"/> <img  src ="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="42" height="42" border="0" />
+           <a href="https://www.linkedin.com/in/pawan-kumar-430951111?trk=nav_responsive_tab_profile_pic"/> <img  src ="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="80" height="80" border="0" />
         </span>
         
         <span>
-    <a href="https://twitter.com/pawanku18045433"/><img src ="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width="42" height="42"/>
+    <a href="https://twitter.com/pawanku18045433"/><img src ="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width="80" height="80"/>
         </span>
         
          <span>
-            <a href="<a href="https://www.facebook.com/profile.php?id=100004177570711"/><img src ="http://www.underconsideration.com/brandnew/archives/facebook_2015_logo_detail.png" width="70" height="70"/>
+            <a href="<a href="https://www.facebook.com/profile.php?id=100004177570711"/><img src ="http://www.underconsideration.com/brandnew/archives/facebook_2015_logo_detail.png" width="100" height="100"/>
         </span>`
   
 },
