@@ -15,9 +15,9 @@ var articles = {
     <a href="https://twitter.com/pawanku18045433"/><img src ="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width="42" height="42"/>
         </span>
         
-         <P>
-            <a href="<a href="https://www.facebook.com/profile.php?id=100004177570711"/><img src ="http://www.underconsideration.com/brandnew/archives/facebook_2015_logo_detail.png" width="42" height="42"/>
-        </P>`
+         <span>
+            <a href="<a href="https://www.facebook.com/profile.php?id=100004177570711"/><img src ="http://www.underconsideration.com/brandnew/archives/facebook_2015_logo_detail.png" width="60" height="60"/>
+        </span>`
   
 },
 'article-two' : {
