@@ -15,9 +15,10 @@ var articles = {
     <a href="https://twitter.com/pawanku18045433"/><img src ="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1259px-Twitter_bird_logo_2012.svg.png" width="80" height="80"/>
         </span>
         
-         <span>
+         <p>
             <a href="<a href="https://www.facebook.com/profile.php?id=100004177570711" /><img src ="https://www.underconsideration.com/brandnew/archives/facebook_2015_logo_detail.png" width="100" height="100"/>
-        </span>`
+        </p>
+        `
   
 },
 'article-two' : {
