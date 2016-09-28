@@ -122,8 +122,8 @@ li:last-child {
 
 @media only screen and (max-width: 768px) {
     .img-medium {
-    height: 10%;
-    width :10%;
+    height: 1%;
+    width :1%;
 }
 
 }
