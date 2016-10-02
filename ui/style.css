@@ -100,7 +100,7 @@ li:last-child {
     height:400px;
  
 }
-p{
+p{  font-weight:bold;
     color:red;
 }
 
