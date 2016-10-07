@@ -9,16 +9,16 @@ img{
      border: 1px solid black;
     float:left;
     
-    width:150px;
-    height:300px;
+    width:250px;
+    height:500px;
 }
 
 
 .latestNews {
      border: 1px solid black;
     float:right;
-    width:150px;
-    height:300px;
+    width:250px;
+    height:500px;
  
 }
 
