@@ -9,6 +9,31 @@ img{
      border: 1px solid black;
     float:left;
     
+    width:100px;
+    height:200px;
+}
+
+
+.latestNews {
+     border: 1px solid black;
+    float:right;
+    width:100px;
+    height:200px;
+ 
+}
+
+body{
+    background-color:#F5D5BC;
+}
+
+
+  
+
+@media only screen and (min-width: 500px) {
+  .events{
+     border: 1px solid black;
+    float:left;
+    
     width:250px;
     height:500px;
 }
@@ -21,18 +46,6 @@ img{
     height:500px;
  
 }
-
-body{
-    background-color:#F5D5BC;
-}
-
-
-  
-
-@media only screen and (min-width: 500px) {
-    body{
-          background-color: #228B22;
-    }
     
 body {
     background:lightblue;
