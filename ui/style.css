@@ -5,22 +5,7 @@ img{
 
 }
 
-.events{
-     border: 1px solid black;
-    float:left;
-    
-    width:50px;
-    height:100px;
-}
 
-
-.latestNews {
-     border: 1px solid black;
-    float:right;
-    width:50px;
-    height:100px;
- 
-}
 
 body{
     background-color:#F5D5BC;
@@ -38,22 +23,7 @@ body{
 @media only screen and (min-width: 540px) {
     
     
-    .events{
-     border: 1px solid black;
-    float:left;
     
-    width:250px;
-    height:500px;
-}
-
-
-.latestNews {
-     border: 1px solid black;
-    float:right;
-    width:250px;
-    height:500px;
- 
-}
    
     
 body {
