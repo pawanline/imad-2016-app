@@ -4,20 +4,21 @@ img{
    
 
 }
-    
- .events{
+
+.events{
      border: 1px solid black;
     float:left;
     
-    width: 50px;
-    height:100px;
+    width:100px;
+    height:200px;
 }
+
 
 .latestNews {
      border: 1px solid black;
     float:right;
-    width:50px;
-    height:100px;
+    width:100px;
+    height:200px;
  
 }
 
@@ -25,24 +26,6 @@ img{
   
 
 @media only screen and (min-width: 500px) {
-    
-    .events{
-     border: 1px solid black;
-    float:left;
-    
-    width:200px;
-    height:400px;
-}
-
-
-.latestNews {
-     border: 1px solid black;
-    float:right;
-    width:200px;
-    height:400px;
- 
-}
-
     body{
           background-color: #228B22;
     }
