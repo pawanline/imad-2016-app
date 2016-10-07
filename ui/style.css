@@ -27,17 +27,37 @@ body{
 }
 
 
+ 
+ 
+ 
+ 
   
+/*for Desktop Machines */
+
 
 @media only screen and (min-width: 540px) {
-    body{
-          background-color: #228B22;
-    }
+   
     
 body {
     background:lightblue;
     font-family: sans-serif;
     margin-top: 60px;
+}
+.events{
+     border: 1px solid black;
+    float:left;
+    
+    width:250px;
+    height:500px;
+}
+
+
+.latestNews {
+     border: 1px solid black;
+    float:right;
+    width:250px;
+    height:500px;
+ 
 }
 
 
