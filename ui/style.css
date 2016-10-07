@@ -4,7 +4,23 @@ img{
    
 
 }
+    
+    .events{
+     border: 1px solid black;
+    float:left;
+    
+    width:50px;
+    height:100px;
+}
 
+
+.latestNews {
+     border: 1px solid black;
+    float:right;
+    width:50px;
+    height:100px;
+ 
+}
 
 
 
