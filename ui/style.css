@@ -1,5 +1,35 @@
+img{
+     width :250px;
+    height: 350px;
+   
+
+}
+
+.events{
+     border: 1px solid black;
+    float:left;
+    
+    width:100px;
+    height:200px;
+}
 
 
+.latestNews {
+     border: 1px solid black;
+    float:right;
+    width:300px;
+    height:400px;
+ 
+}
+
+
+  
+
+@media only screen and (min-width: 500px) {
+    body{
+          background-color: #228B22;
+    }
+    
 body {
     
     font-family: sans-serif;
@@ -86,22 +116,7 @@ li:last-child {
 }
 
 
-.events{
-     border: 1px solid black;
-    float:left;
-    
-    width:300px;
-    height:400px;
-}
 
-
-.latestNews {
-     border: 1px solid black;
-    float:right;
-    width:300px;
-    height:400px;
- 
-}
 p{  font-weight:bold;
     color:red;
 }
@@ -121,14 +136,4 @@ p{  font-weight:bold;
     margin:270px 20px 0px 20px;
     
 }
-
-
-  
-
-@media only screen and (min-width: 500px) {
-    body{
-          background-color: #228B22;
-    }
-    
-
 }
