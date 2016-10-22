@@ -57,7 +57,7 @@ var articles = {
         </P>`
     
 },
-'project':{
+'Project':{
     title:"My Project",
     heading:"My Project",
     date:'22 sep 2016',
