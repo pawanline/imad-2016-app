@@ -57,6 +57,16 @@ var articles = {
         </P>`
     
 },
+'project':{
+    title:"My Project",
+    heading:"My Project",
+    date:'22 sep 2016',
+    content:`
+    <p> Time table Application on android platform</p>
+    <p> This is an application to improve communication between teacher and student in an effective way.Teacher can scheduled their class as per theri convenience and student will get to know through notification through the app</p>
+    `
+    
+}
 };
 function createTemplate(data){
     var title = data.title;
