@@ -77,6 +77,14 @@ var articles = {
     <p> This is an application to improve communication between teacher and student in an effective way.Teacher can scheduled their class as per theri convenience and student will get to know through notification through the app</p>
     `
     
+},
+
+'test-db':{
+    title:"welecome to test through db",
+    headin:"a simple db",
+    date:'2016 aug 22',
+    content:`
+    <p>welcome to dbms</p>`
 }
 };
 
