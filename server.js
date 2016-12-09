@@ -159,23 +159,6 @@ app.get('/test-db',function(req,res){
     
 });
 
-app.get('/articles/:articlename', function (req, res) {
-    pool.query("SELECT * FROM article WHERE title='"+req.params.articlename+"'",function(err,result){
-        if(err)
-        {
-            res.status(500).send(err.tostring());
-        }
-        if(result.rows.length===0)
-        {
-            res.status(404).send(err.tosrting());
-        }
-        else
-        {
-            var articledata=result.rows[0];
-            res.send(createtemplate(articledata));
-        }    
-    });
-});
 var counter = 0;
 app.get('/counter',function(req,res){
     counter = counter + 1;
