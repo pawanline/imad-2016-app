@@ -124,7 +124,7 @@ var htmlTemplate = `<html>
         ${heading}
     </h3>
     <div>
-      ${date};
+      ${date}.toDate.toString();
     </div>
     <div>
        
