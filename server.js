@@ -27,7 +27,7 @@ var htmlTemplate = `<html>
     <title> ${title}</title>
     <meta name = "viewport" content="width-device-width,initial-scale-1"/>
     <style>
-        .container{
+        .Container{
      max-width: 800px;
     margin: 0 auto;
     font-size: 32px;
