@@ -1,126 +1,392 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=Edege">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>IMAD |Pawan Kumar </title>
     
-     <title>Pawan kumar</title>
-     
-    <!--favicon-->
-    <link rel="icon" href="../img/favicon.gif" type="image/gif" sizes="16x16" />
-
     
-
-    <!-- Custom CSS -->
-    <link href="/ui/style.css" rel="stylesheet">
-    
-    <!--Bootstrap CSS -->
-    <link href="/ui/bootstrap/css/bootstrap.css" rel="stylesheet">
+     <!-- Bootstrap -->
     <link href="/ui/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/ui/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
     <link href="/ui/bootstrap/css/style.css" rel="stylesheet">
     <link href="/ui/bootstrap/css/font-awesome.min.css" rel="stylesheet">
     <link href="/ui/bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <style>
+        /* Set gray background color and 100% height */
+        /* Set gray background color and 100% height */
+        .sidenav {
+          background-color: #f1f1f1;
+          height: 100%;
+        }
+     </style>
     
-
-   
-
-
+</head>
     
-      
-        
-    </head>
-    <body>
-        
-        <div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    About me
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Events</a></li>
-    <li><a href="#"></a>MyResume</li>
-    <li><a href="#">Ongoing Project</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
-   
-   
-    <!-- just old  code    
-        <div class = "container">
-        <nav class="navigationBar" >
-            <ul class="active">
-                <li> <a class="active" href="#about me">About me</a></li>
-                <li> <a href="#blog">Blog</a></li>
-                <li> <a href="#event">Events</a></li>
-                <li> <a href="#myresume">MyResume</a></li>
-                <li><a href="#Ongoing Projects"> Ongoing Project</a></li>
-                <li><a href="http://pawanline.imad.hasura-app.io/articles/project"> Projects</a></li>
-                <li><a href="https://github.com/pawanline" target="_blank">Git Profile</a></li>
-                <li><a href="http://pawanline.imad.hasura-app.io/articles/article-one">Contact me</a></li>
-                <li> <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button></li>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="200">
+    
+    <!-- navigation Content Start Here -->
+    
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" 
+                    aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><P >Just For Flavor</P></a>
+        </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+               <ul class="nav navbar-nav">
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-home"
+                         aria-hidden="true"></span> HOME </a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-info-sign"
+                         aria-hidden="true"></span> PROFILE <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" >
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#technical">Technical</a></li>
+                    <li><a href="#personal">Personal</a></li>
+                    <li><a href="#social">Social</a></li>
+                 
+                    </ul></li>
+                    <!--
+                   <li><a href="/blog" >
+                   
+                   
+                    <span> BLOG </span></a>
+                    
+                    
+                 
+                    </li>
+                       -->
+                   
+                </ul>
                
-            </ul>
-        </nav >
+                </div> 
+        </div>
+    </nav>
+    <!-- navigatin content ends here -->
+
+    
+    <!-- jumbotron start -->
+      <header class="jumbotron">
+
+        <!-- Main component for a primary marketing message or call to action -->
+
+        <div class="container">
+            
+            <div class="row  row-header">
+                <div class="col-xs-12 col-sm-4" >
+                    
+                    <img class="img-circle" src="https://raw.githubusercontent.com/pawanline/imad-2016-app/master/ui/mygithubprofile.png" width="200px" height="200px">
+                    <p style="padding:30px;"></p>
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                    <h1>Pawan Kumar</h1>
+                    <h4>Java Developer |Android Developer</h4>
+                    <p style="padding:10px;"></p>
+                    <p>HI! I am in final year of M.sc Informatics</p>
+                </div>
+               
+            </div>
+        </div>
+          <br><br><br>
+    </header>  
+    <br><br><br>
+    <!-- jumbotron ends -->
+    
+    <!--About us section  start  -->
+    
+    <div class="container" id="about">
+        <div>
+            
+            <div>
+               <h3>My Profile </h3>
+               <hr>
+            </div>
+        </div>
         
-        -->
-        <div class = "Container">
-            <div class="events">
-                Events
+       
+        <div class="row">
+       <div class="col-xs-12 col-sm-10">
+        
+         <!-- Academics Section start here  -->
+           
+           <div id="academics" class="row row-content">
+                <div class="col-xs-12 ">
+                    <h2 class="text-center">Academics</h2>
+                    
+                <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><h3>Schooling</h3></a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><h3>Graduation</h3></a></li>
+    
+                    </ul>
+                
+             <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <div class="row">
+          	         <div class="col-sm-4 " >
+                      <img src="images/school.png" width="150px" height="150px">
+                     </div>   
+                    <div class="col-sm-8  ">     
+                        <h3>Saraswati Vidya Mandir</h3>
+                        <p>Kamla Nehru Nagar Ghaziabad </p>
+                    </div>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane " id="profile">
+      
+                <div class="row">
+                    <div class="col-sm-4 ">
+                      <img src="images/college.png" width="150px" height="150px">
+                    </div>
+
+                <div class="col-sm-8 ">
+                      <h3>B.sc Physical Science (Computer Science)</h3>
+                      <h4>Maharaja Agrasen College,University Of Delhi ,South Campus </h4></div>
+                </div>
+            </div>
+    
+        </div>
+                
+                   
+            </div>
+                <br><br><br>
+           </div>
+        <!-- Academics Section  Ends -->   
+           
+           <br><br>
+ 
+
+        <!-- Technical skill section start -->
+        <div id="technical" class="row row-content">
+            <div class="col-xs-12 ">
+                <h2 class="text-center">Technical Skills</h2>
+                
+                
+                <div class="panel-group" id="accordion"
+                      role="tablist" aria-multiselectable="true">    
+
+            <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingJava">
+                            <h3 class="panel-title">
+                                <a role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#peter"
+                                     aria-expanded="true" aria-controls="peter">
+                                    Core java </a>
+                            </h3>
+                        </div>
+                <div role="tabpanel" class="panel-collapse collapse in" id="peter" aria-labelledby="headingJava">
+                            <div class="panel-body" style="background:#6495ED">
+                                <div class="row">
+                                    <div class="col-sm-4"><img src="images/java.png" width="150" height="150"></div>
+                                    <div class="col-sm-8"><br><br><br><h4>Android ,JDBC,JAVA SWING</h4></div>
+                                </div>
+                                
+		                        
+                            </div>
+                 </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingWEB">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#danny"
+                                     aria-expanded="false" aria-controls="danny">
+                                    WEB</a>
+                            </h3>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse"
+                             id="danny"    aria-labelledby="headingWEB">
+                            <div class="panel-body" style="background:#1E90FF">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="images/web.png" width="150" height="150">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h4>User Interface - HTML5, CSS3, JavaScript</h4><br>
+										<h4>i WILL PUT LATER ON</h4><br>
+										<h4>Server side - MySql, Php</h4><br>
+                                    </div>
+                                </div>
+                                
+		                        
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingServer">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#agumbe"
+                                     aria-expanded="false" aria-controls="agumbe">
+                                    Server & Database </a>
+                            </h3>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse"
+                             id="agumbe"    aria-labelledby="headingServer">
+                            <div class="panel-body" style="background:	#6495ED">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="images/server.png" width="150" height="150">
+                                    </div>
+                                    <div class="col-sm-8">
+										<h4>Server - Apache Server</h4><br>
+                                        <h4>Database - MySql</h4>
+                                    </div>
+                                </div>
+                                 
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingIDE">
+                            <h3 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse"
+                                     data-parent="#accordion" href="#alberto"
+                                     aria-expanded="false" aria-controls="alberto">
+                                    Tools and IDE's </a>
+                            </h3>
+                        </div>
+                        <div role="tabpanel" class="panel-collapse collapse"
+                             id="alberto"    aria-labelledby="headingIDE">
+                            <div class="panel-body" style="background:#1E90FF">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img src="images/setting.png" width="150" height="150">
+                                    </div>
+                                    <div class="col-sm-8">
+                                
+									
+										<strong>IDE - Android Studio, Eclipse,  </strong>
+                                    </div>
+                                </div>
+                                  
+		                          
+                            </div>
+                        </div>
+                    </div>
                 
             </div>
-             <div class="latestNews">
-                 <li><p id="demo"></p></li>
-          Latest News
+             
             
-        </div>
-        
-        <div class="center">
-             <img id="madi" src="https://raw.githubusercontent.com/pawanline/imad-2016-app/master/ui/mygithubprofile.png" alt="profileimage" />
            
-        </div>
-     
-        
-        <h3>About me</h3>
-        <div class="about-me">
-            Hello Everybody ,I am pawan kumar . I am pursuing m.sc informatics  from  Institute of Informatics and  communication.I LOVE NATURE .I am a programmer.Love to read Tech , listen to music.Enthusiastic towards open source technologies.
-        </div>
-        
-        
-       
-   
-        
-        <div class = "footer">
-            This button  <button id = "counter">Use me!</button>has been clicked <span id = "count"> 0 </span>times
-     <hr/>
-     
-     
-      <input type ="text" id="name" placeholder="name"/>
-     <input type ="submit" value="submit" id="submit_btn"/>
-      <ul  id = "namelist">
-        </ul>
-         <hr/>
-          <p> All Work done by me based on my own views</p>
-     
-       
-        
-  
+            </div>        
+            </div>
+           
+           <!-- Technical skill section Ends here -->
+             <br><br><br>
+           <!-- Personal info Section Start here -->
+        <div id="personal" class="row row-content">
+            <div class="col-xs-12 ">
+                <h2 class="text-center">Personal</h2>
+                 <div class="col-sm-6 text-center">
+                              <img src="images/mail.png" width="150" height="150">
+		                      <h2>pawan.kumar@iic.ac.in</h2>
+                 </div>
+                 <div class="col-sm-6 text-center">
+		              <img src="images/phone.png" width="150" height="150">
+                      <h2>+919716218820</h2>
+		        </div>
+            </div>
+             
+            
        </div>
-     
-
+           
+           <!-- Personal info Secton End Here -->
+           </div>
+        
+            <!-- About us content ends here -->
+            
+            <!-- side navbar Start -->
+            <nav class="hidden-xs col-sm-2" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="400">
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#technical">Technical skill</a></li>
+                <li><a href="#personal">Personal</a></li>
+                <li><a href="#social">Social</a></li>
+            </ul>
+            </nav>
+            <!-- side navbar ends -->
+       </div>
 </div>
-      
-           
-       
-       </div>
-        
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+
+     <!-- text -->
+    <br><br><br>
+    
+    <!--
+    <footer class="row-footer" id="social">
+        <div class="container">
+            <div class="row">             
+                
+                <div class="col-xs-6 col-sm-4 address">
+                    <h5>Contact</h5>
+                    <address class="address">
+		              H.no-87<br>
+		              Baudh vihar Vijay Nagar<br>
+		              Ghaziabad, UP<br>
+                        201009<br>
+		              <i class="fa fa-phone"></i>+919716218820<br>
+		              <i class="fa fa-envelope"></i>: 
+                      <a href="mailto:niranjan.rdec@mail.com">niranjan.rdec@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-xs-12 col-sm-8 social" style="margin-top:30px;">
+                        <div class="col-sm-2 col-xs-3" >
+                              <a href="https://www.facebook.com/justniranjan1994"><img id="icn" src="images/fb.PNG"></a>
+                      </div>
+                       <div class="col-sm-2 col-xs-3">
+                              <a href="https://twitter.com/niranjan_2017"><img id="icn" src="images/twitter.PNG"></a>
+                       </div>
+                       <div class="col-sm-2 col-xs-3">
+                             <a href="https://www.linkedin.com/in/niranjan-kumar-a8276b130"><img id="icn" src="images/lkn.PNG"></a>
+                        </div>
+                    <div class="col-sm-2 col-xs-3">
+                        <a href="https://plus.google.com/u/0/115654519142670665739"><img id="icn" src="images/gp.PNG"></a>
+
+                     </div>
+                </div>
+                <div class="col-xs-12 ">
+                    <p style="padding:10px;"></p>
+                    <p align=center>Design and Developed By- Niranjan Kumar || Contact:+918802278266</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    -->
+    
+ 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+    <!--
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+         });
+    </script>
+-->
+</body>
+
 </html>
