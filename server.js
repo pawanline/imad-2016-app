@@ -13,13 +13,6 @@ var config = {
 
 var app = express();
 app.use(morgan('combined'));
-<<<<<<< HEAD
-    app.use(express.static('public'));
-
-=======
-
-app.use(express.static('public'));
->>>>>>> 3d66c62449e51bcde5f5ef34916d606239ac4757
 function createTemplate(data){
    var title = data.title;
     var date = data.date;
