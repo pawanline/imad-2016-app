@@ -7,8 +7,8 @@ app.use(express.static('public'));
 
 app.get('/',function(req,res){
     //res.send('hello iam here');
-    res.sendFile(__dirname+'/index.html');
+    res.sendFile('public'+'/index.html');
     });
 
-app.listen('8080');
-console.log('listening on port 8080');
+app.listen('3000');
+console.log('listening on port 3000');
