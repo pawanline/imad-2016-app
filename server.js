@@ -13,6 +13,12 @@ var config = {
 
 var app = express();
 app.use(morgan('combined'));
+
+    app.use(express.static('public'));
+
+
+app.use(express.static('public'));
+
 function createTemplate(data){
    var title = data.title;
     var date = data.date;
@@ -62,11 +68,9 @@ return htmlTemplate;
 
 
 app.get('/', function (req, res) {
-<<<<<<< HEAD
-   res.sendFile(__dirname+'/index.html');
-=======
+
   res.sendFile('public'+'/index.html');
->>>>>>> 3d66c62449e51bcde5f5ef34916d606239ac4757
+
 });     
 var pool = new Pool(config);
 app.get('/test-db',function(req,res){
