@@ -1,0 +1,152 @@
+
+body{
+    background-color: black;
+}
+
+
+img{
+     width :100%;
+    height: 40%;
+   
+
+}
+
+.events{
+     border: 1px solid black;
+    float:left;
+    
+    width:20%;
+    height:25%;
+}
+
+
+.latestNews {
+     border: 1px solid black;
+    float:right;
+    width:20%;
+    height:25%;
+ 
+}
+
+
+ 
+ 
+ 
+ 
+  
+/*for Desktop Machines */
+
+
+@media only screen and (min-width: 900px) {
+    
+    
+    
+   
+    
+body {
+    background:lightblue;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+
+
+.text-big {
+    font-size: 300%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+img{
+    height: 700px;
+    width :500px;
+}
+.linkedin-logo{
+    height:10px;
+    width:10px;
+}
+
+  .Container {
+      margin:0px 20px 0px 20px;
+   
+     max-width: 1200px;
+     height:1260px;
+    font-size: 32px;
+     padding-left: 60px;
+    padding-right: 40px;
+    font-family: sans-serif;
+  
+        }
+
+      ul {
+          margin:0px 20px 0px 20px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+     width:1260px;
+    top: 0;
+   
+}
+
+
+
+li {
+    float: left;
+      border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    font-family:cursive;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#8600b3;
+}
+li a:hover:not(.active) {
+    background-color: #8600b3;
+}
+
+.active {
+    background-color:#8600b3 ;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+
+p{  font-weight:bold;
+    color:red;
+}
+
+
+
+
+.about-me{
+   font-size:40px;
+   font-weight:bold;
+   color:purple;
+}
+
+.footer{
+   
+    color:purple;
+    margin:270px 20px 0px 20px;
+    
+}
+}
